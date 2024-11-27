@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+}
+h1{
+    font-family: "dream to berich";
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+}
+h2{
+    font-family: "dream to berich";
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: white; 
+}
+p{
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem; 
+}
+li{
+    list-style: none;
+    display: flex;
+}
+ul{
+    display: flex;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.slider{
+    background-image: linear-gradient(90deg, rgba(51, 1, 8, 0.628) 0%, rgba(153, 3, 23, 0.372) 100%), url(background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-position: top;
+}
+
+.header_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #C34600;
+    background-color: white;
+
+}
+.header_2{
+    margin: auto;
+    display: flex;
+    padding: 25px 70px;
+    justify-content: space-between;
+    
+}
+.set_1 li{
+    margin: 0px 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+
+.set_2{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 2rem;
+}
+.set_2 li{
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+.logo img{
+    color: red;
+    width: 100px
+}
+
+.search_icon, .cart{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: #A70000;
+}
+.icon{
+    padding: 0px 30px;
+    display: flex;
+    gap: .6rem;
+    
+}
+.slider .side_1{
+    /* width: 45%; */
+    margin: 40px 60px 20px;
+   
+}
+.side_1 .cta{
+    padding: 10px 20px;
+    background-color: #A70000;
+    border-radius: 10px;
+}
+.side_1 p{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+.cta:hover{
+    /* background-color: */
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.251);
+}
+.donut{
+    margin-top: -30px;
+}
+
+.side_2 img{
+    width: 80%;
+}
+.main{
+    display: flex;
+}
